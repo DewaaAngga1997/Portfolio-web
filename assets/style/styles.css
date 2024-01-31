@@ -1,0 +1,136 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* navbar */
+header {
+  margin-bottom: 96px;
+  margin-bottom: 0;
+  margin-top: -106px;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.navbar > div {
+  display: flex;
+  align-items: center;
+}
+
+.navbar > div > div {
+  padding: 0 10px;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+}
+
+.list > li {
+  padding: 0 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #4d4c4c;
+}
+
+a:hover {
+  color: #000;
+  font-weight: bold;
+}
+
+nav > img {
+  width: 100px;
+}
+
+.navbar > div > div > button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+}
+.navbar > div > div > button:hover {
+  background-color: #000;
+  color: #fff;
+}
+/* End Navbar */
+
+/* main */
+.hero_section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 106px;
+  align-items: center;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.hero {
+  width: 768px;
+  padding: 20px;
+}
+
+.hero_title {
+  margin-bottom: 0;
+  font-size: 50px;
+}
+main > article > div > .address {
+  margin-top: 48px;
+}
+
+main > article > div > div {
+  display: flex;
+  align-items: center;
+  height: 24px;
+  margin-bottom: 10px;
+}
+
+main > article > div > div > div {
+  padding: 5px;
+}
+
+main > article > aside > img {
+  width: 500px;
+}
+
+main > article > div > .sosial-media {
+  margin-top: 48px;
+}
+/* end main */
+
+/* skill */
+section > .skill {
+  height: 300px;
+  width: auto;
+  background-color: rgb(240, 239, 239);
+  margin-top: 96px;
+  text-align: center;
+  margin-bottom: 0;
+  padding-top: 20px;
+}
+
+section > .skill > div > div > img {
+  width: 100px;
+}
+
+section > .skill > div > div > p {
+  margin-top: 0;
+}
+
+section > div > .list-skill {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+/* end skill */
