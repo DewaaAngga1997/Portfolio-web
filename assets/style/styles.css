@@ -196,7 +196,7 @@ main > .skill > div > div > p {
   margin-top: 0;
 }
 
-main > div > .list-skill {
+main > .skill > .list-skill {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
