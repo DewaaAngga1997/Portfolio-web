@@ -16,22 +16,22 @@ body {
     background-color: black;
     color: white;
   }
-  header {
+  body > header {
     background-color: black;
     color: white;
   }
-  header > .navbar > .list > li > a {
+  body header > .navbar > .list > li > a {
     background-color: black;
     color: white;
   }
-  header > .navbar > img {
+  body > header > .navbar > img {
     background-color: white;
     padding: 5px;
   }
 }
 
 /* navbar */
-header {
+body > header {
   margin-bottom: 96px;
   margin-bottom: 0;
   margin-top: -106px;
