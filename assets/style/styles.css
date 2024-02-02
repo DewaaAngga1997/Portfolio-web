@@ -203,6 +203,12 @@ main > .skill > .list-skill {
   gap: 40px;
   padding-bottom: 20px;
 }
+main > .project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 /* end skill */
 
 /* footer */
