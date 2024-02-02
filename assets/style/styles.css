@@ -178,7 +178,7 @@ main > article > div > .sosial-media {
 /* end main */
 
 /* skill */
-section > .skill {
+main > .skill {
   height: auto;
   width: auto;
   background-color: rgb(240, 239, 239);
@@ -188,15 +188,15 @@ section > .skill {
   padding-top: 20px;
 }
 
-section > .skill > div > div > img {
+main > .skill > div > div > img {
   width: 100px;
 }
 
-section > .skill > div > div > p {
+main > .skill > div > div > p {
   margin-top: 0;
 }
 
-section > div > .list-skill {
+main > div > .list-skill {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
